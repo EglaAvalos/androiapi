@@ -1,5 +1,5 @@
 from mysql.connector import Error
-from db import get_connection
+from persistence.db import get_connection
 
 class Encargado:
     def __init__(self, puesto, nombre, telefono=None):
